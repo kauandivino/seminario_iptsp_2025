@@ -1,7 +1,7 @@
 # Projeto: Classificação de Plantas em Estufas IoT e Tradicionais
 
-*Área Temática:* Biotecnologia
-*Tema:* Classificação de plantas cultivadas em estufas com e sem monitoramento por IoT utilizando análise multivariada de parâmetros fisiológicos.
+**Área Temática:** Biotecnologia
+**Tema:** Classificação de plantas cultivadas em estufas com e sem monitoramento por IoT utilizando análise multivariada de parâmetros fisiológicos.
 
 ## Contexto
 
@@ -9,10 +9,10 @@ A agricultura de precisão, apoiada por sistemas de Internet das Coisas (IoT), p
 
 ## Dataset
 
-*Nome:* Advanced IoT Agriculture Dataset
-*Origem:* Tikrit University – Agriculture Lab (Iraque, 2023–2024)
-*Tamanho:* 30.000 registros
-*Variáveis:* 14 atributos fisiológicos + rótulo de classe
+**Nome:** Advanced IoT Agriculture Dataset
+**Origem:** Tikrit University – Agriculture Lab (Iraque, 2023–2024)
+**Tamanho:** 30.000 registros
+**Variáveis:** 14 atributos fisiológicos + rótulo de classe
 
 | Coluna | Descrição                                                       |
 | ------ | --------------------------------------------------------------- |
@@ -32,15 +32,15 @@ A agricultura de precisão, apoiada por sistemas de Internet das Coisas (IoT), p
 | Class  | Grupo experimental (SA, SB, SC → IoT; TA, TB, TC → Tradicional) |
 
 
-*Diferencial:* O dataset possibilita avaliar diferenças fisiológicas de plantas sob condições controladas (IoT) versus métodos tradicionais.
+**Diferencial:** O dataset possibilita avaliar diferenças fisiológicas de plantas sob condições controladas (IoT) versus métodos tradicionais.
 
 ## Metodologia
 
-1. *Exploração de dados (EDA):* estatísticas descritivas, histogramas, boxplots e heatmaps.
+1. **Exploração de dados (EDA):** estatísticas descritivas, histogramas, boxplots e heatmaps.
 
-2. *Projeções multivariadas:* PCA (2D/3D) para visualizar separação entre grupos.
+2. **Projeções multivariadas:** PCA (2D/3D) para visualizar separação entre grupos.
 
-3. *Modelagem preditiva:*
+3. **Modelagem preditiva:**
 
 * Logistic Regression
 * Random Forest
@@ -56,15 +56,15 @@ Todos atingiram 100% de acurácia, confirmando a distinção clara entre os grup
 
 ![Clusters PCA](../imagens/biotecnologia_projecao_t-SNE.png)
 
-* *Grupos IoT:* maior uniformidade, maior expansão foliar e crescimento em altura.
+* **Grupos IoT:** maior uniformidade, maior expansão foliar e crescimento em altura.
 
-* *Grupos tradicionais:* maior variabilidade de biomassa e arquitetura radicular.
+* **Grupos tradicionais:** maior variabilidade de biomassa e arquitetura radicular.
 
-* *Variáveis-chave:*
+* **Variáveis-chave:**
 
-* * *PHR* – taxa de crescimento em altura
-* * *ALAP* – área foliar média
-* * *ARD* – diâmetro radicular
+ **PHR** – taxa de crescimento em altura
+ **ALAP** – área foliar média
+ **ARD** – diâmetro radicular
 
 As análises confirmaram que o monitoramento IoT favorece maior vigor e uniformidade fisiológica.
 
