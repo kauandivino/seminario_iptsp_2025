@@ -4,7 +4,6 @@
 
 > **“Caminhos da Ciência: Saúde, Inovação e Compromisso Social”**  
 
-![Logo-Seminario-IPTSP](../imagens/logo_seminario_iptsp2025.png)  
 
 ## Sobre o Evento  
 
